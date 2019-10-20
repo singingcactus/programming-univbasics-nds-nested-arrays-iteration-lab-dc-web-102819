@@ -1,8 +1,10 @@
 def join_ingredients(src)
+  statement_strings = ""
   while i < src.length do
-    puts "I love " + src[i][0] + " and " + src[i][1] + " on my pizza"
-    i += 1 
+    statement_strings += "I love " + src[i][0] + " and " + src[i][1] + " on my pizza"
+    i += 1
   end
+  statement_strings
 
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
