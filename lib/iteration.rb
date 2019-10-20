@@ -3,7 +3,7 @@ def join_ingredients(src)
   i = 0
 
   while i < src.length do
-    statement_strings[i] = "I love + #{src[i][0]} and #{src[i][1]} on my pizza"
+    statement_strings[i] = "I love #{src[i][0]} and #{src[i][1]} on my pizza"
     i += 1
   end
 
